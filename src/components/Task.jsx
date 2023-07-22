@@ -21,8 +21,8 @@ export const Task = ({
         <span>{title}</span>
       )}
       {completed ? (
-        <button className="btn btn-primary" onClick={doneBtnOnClick}>
-          Undo
+        <button className="btn  btn-success" onClick={doneBtnOnClick}>
+          Done
         </button>
       ) : (
         <button className="btn btn-success" onClick={doneBtnOnClick}>
